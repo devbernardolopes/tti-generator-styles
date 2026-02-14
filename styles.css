@@ -12,6 +12,15 @@ body {
   padding: 14px;
 }
 
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  color: #58a6ff;
+  text-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+}
+
 .input-container {
   max-width: 900px;
   margin: 0 auto;
@@ -399,4 +408,21 @@ button:disabled:hover {
   font-weight: 600;
   pointer-events: none;
   user-select: none;
+}
+
+.custom-tooltip {
+  position: fixed;
+  display: none;
+  background: rgba(22, 27, 34, 0.98);
+  color: #c9d1d9;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #30363d;
+  font-size: 12px;
+  max-width: 400px;
+  word-wrap: break-word;
+  z-index: 10001;
+  pointer-events: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  line-height: 1.4;
 }
