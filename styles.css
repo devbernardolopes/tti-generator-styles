@@ -411,7 +411,7 @@ button:disabled:hover {
 }
 
 .custom-tooltip {
-  position: absolute;
+  position: fixed;
   display: none;
   background: rgba(22, 27, 34, 0.98);
   color: #c9d1d9;
@@ -426,4 +426,6 @@ button:disabled:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
   line-height: 1.4;
   white-space: pre-wrap;
+  max-height: 200px;
+  overflow-y: auto;
 }
