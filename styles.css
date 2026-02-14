@@ -406,13 +406,12 @@ button:disabled:hover {
   right: 10px;
   width: 40px;
   height: 40px;
-  padding: 0 !important;
-  background: rgba(35, 134, 54, 0.9) !important;
-  border: 1px solid #2ea043 !important;
+  padding: 0;
+  background: rgba(35, 134, 54, 0.9);
+  border: 1px solid #2ea043;
   border-radius: 8px;
-  color: #fff !important;
+  color: #fff;
   font-size: 24px;
-  font-weight: normal !important;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -422,75 +421,8 @@ button:disabled:hover {
 }
 
 .modal-download-btn:hover {
-  background: rgba(46, 160, 67, 1) !important;
+  background: rgba(46, 160, 67, 1);
   transform: scale(1.1);
-}
-
-#modalInfoBtn {
-  position: absolute !important;
-  top: 10px !important;
-  left: 10px !important;
-  width: 40px !important;
-  height: 40px !important;
-  padding: 0 !important;
-  background: rgba(31, 111, 235, 0.9) !important;
-  border: 1px solid #388bfd !important;
-  border-radius: 8px !important;
-  color: #fff !important;
-  font-size: 24px !important;
-  font-weight: normal !important;
-  cursor: pointer !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  z-index: 10000 !important;
-  transition: all 0.2s ease !important;
-}
-
-#modalInfoBtn:hover {
-  background: rgba(56, 139, 253, 1) !important;
-  transform: scale(1.1) !important;
-}
-
-.modal-info-btn {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 40px;
-  height: 40px;
-  padding: 0 !important;
-  background: rgba(31, 111, 235, 0.9) !important;
-  border: 1px solid #388bfd !important;
-  border-radius: 8px;
-  color: #fff !important;
-  font-size: 24px;
-  font-weight: normal !important;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10000;
-  transition: all 0.2s ease;
-}
-
-.modal-info-btn:hover {
-  background: rgba(56, 139, 253, 1) !important;
-  transform: scale(1.1);
-}
-
-.modal-info-panel {
-  width: 100%;
-  max-width: 600px;
-  max-height: 80vh;
-  background: #161b22;
-  border: 1px solid #30363d;
-  border-radius: 8px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  overflow-y: auto;
-  box-sizing: border-box;
-  color: #c9d1d9;
 }
 
 .modal-counter {
