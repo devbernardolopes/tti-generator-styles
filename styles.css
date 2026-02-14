@@ -426,6 +426,32 @@ button:disabled:hover {
   transform: scale(1.1);
 }
 
+#modalInfoBtn {
+  position: absolute !important;
+  top: 10px !important;
+  left: 10px !important;
+  width: 40px !important;
+  height: 40px !important;
+  padding: 0 !important;
+  background: rgba(31, 111, 235, 0.9) !important;
+  border: 1px solid #388bfd !important;
+  border-radius: 8px !important;
+  color: #fff !important;
+  font-size: 24px !important;
+  font-weight: normal !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  z-index: 10000 !important;
+  transition: all 0.2s ease !important;
+}
+
+#modalInfoBtn:hover {
+  background: rgba(56, 139, 253, 1) !important;
+  transform: scale(1.1) !important;
+}
+
 .modal-info-btn {
   position: absolute;
   top: 10px;
