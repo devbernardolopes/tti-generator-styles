@@ -406,12 +406,13 @@ button:disabled:hover {
   right: 10px;
   width: 40px;
   height: 40px;
-  padding: 0;
-  background: rgba(35, 134, 54, 0.9);
-  border: 1px solid #2ea043;
+  padding: 0 !important;
+  background: rgba(35, 134, 54, 0.9) !important;
+  border: 1px solid #2ea043 !important;
   border-radius: 8px;
-  color: #fff;
+  color: #fff !important;
   font-size: 24px;
+  font-weight: normal !important;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -421,7 +422,7 @@ button:disabled:hover {
 }
 
 .modal-download-btn:hover {
-  background: rgba(46, 160, 67, 1);
+  background: rgba(46, 160, 67, 1) !important;
   transform: scale(1.1);
 }
 
@@ -431,12 +432,13 @@ button:disabled:hover {
   left: 10px;
   width: 40px;
   height: 40px;
-  padding: 0;
-  background: rgba(31, 111, 235, 0.9);
-  border: 1px solid #388bfd;
+  padding: 0 !important;
+  background: rgba(31, 111, 235, 0.9) !important;
+  border: 1px solid #388bfd !important;
   border-radius: 8px;
-  color: #fff;
+  color: #fff !important;
   font-size: 24px;
+  font-weight: normal !important;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -446,7 +448,7 @@ button:disabled:hover {
 }
 
 .modal-info-btn:hover {
-  background: rgba(56, 139, 253, 1);
+  background: rgba(56, 139, 253, 1) !important;
   transform: scale(1.1);
 }
 
