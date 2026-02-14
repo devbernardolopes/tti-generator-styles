@@ -425,6 +425,48 @@ button:disabled:hover {
   transform: scale(1.1);
 }
 
+.modal-info-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  background: rgba(31, 111, 235, 0.9);
+  border: 1px solid #388bfd;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  transition: all 0.2s ease;
+}
+
+.modal-info-btn:hover {
+  background: rgba(56, 139, 253, 1);
+  transform: scale(1.1);
+}
+
+.modal-info-panel {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  background: rgba(22, 27, 34, 0.95);
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 12px;
+  color: #c9d1d9;
+  font-size: 12px;
+  z-index: 10001;
+  pointer-events: auto;
+}
+
 .modal-counter {
   position: absolute;
   bottom: 10px;
