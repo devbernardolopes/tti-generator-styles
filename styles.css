@@ -83,6 +83,17 @@ textarea {
   resize: vertical;
   overflow-y: auto;
   box-sizing: border-box;
+    /* Make the resize grip larger */
+    /* For Webkit browsers */
+    &::-webkit-resizer {
+      width: 32px;
+      height: 32px;
+      background: #30363d;
+      border-radius: 6px;
+    }
+    &::-webkit-scrollbar-corner {
+      background: #30363d;
+    }
 }
 
 .controls {
